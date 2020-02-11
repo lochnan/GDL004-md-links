@@ -1,0 +1,22 @@
+{
+  "name": "nlibrary",
+  "version": "1.0.0",
+  "description": "Allows to check the links on a markdown file",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lochnan/GDL004-md-links.git"
+  },
+  "author": "Nancy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lochnan/GDL004-md-links/issues"
+  },
+  "homepage": "https://github.com/lochnan/GDL004-md-links#readme",
+  "devDependencies": {
+    "eslint": "^6.8.0"
+  }
+}
