@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/lochnan/GDL004-md-links#readme",
   "devDependencies": {
-    "eslint": "^6.8.0"
+    "eslint": "^6.8.0",
+    "jest": "^25.1.0"
   }
 }
