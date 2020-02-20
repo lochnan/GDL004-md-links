@@ -32,11 +32,22 @@ if (path.extname(searchExtension) === '.md') {
 
     /* Aplicando el método de render de la library markdown-It y obtengo
     el un string con HTML */
-    let result = md.parse(content, {});
-    console.log(result)
+    const env = {};
+    let result = md.parse(content, env); // env es un parámetro
+    // console.log(result)
 
-   // Si obtengo tokens, ¿tengo que iterar en ellos para obtener los links?
-   // Guardalos en un objeto
+    // Si obtengo tokens, ¿tengo que iterar en ellos para obtener los links y el contenidp?
+    // Entro al  array con el for, y accedo a cada objeto, ¿con filter o con for each?
+    // Guardalos en un un nuevo array
+
+    const searchUrls = (tokens) => {
+      // let links = "";
+      for (let i = 0; i < tokens.length; i++) {
+        let links = result[i];
+        console.log(links)
+      }
+    }
+    searchUrls(result)
 
   })
 }
